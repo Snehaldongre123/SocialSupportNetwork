@@ -1,0 +1,17 @@
+<html>
+<body>
+<head><title>The form</title></head>
+
+<h1>Registration Form</h1>
+
+<form>
+First Name :<input type="text" placeholder="Enter your Name">
+Last Name :<input type="text"><br>
+Password :<input type="password">
+Phone No :<input type="text"><br>
+Select Gender<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</form>
+
+<br><button type="submit" value="submit">SUBMIT</button>
+</body>

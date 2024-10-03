@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="Viewport" content="with=device-width", initial-scale=1.0>
+	<title>SocialSupport Network</title>
+	<link rel="stylesheet" href="SocialSupport.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" /*link from font-awesome bootstrap */ 
+
+</head>
+<body>
+	<section class="header">
+	<!--nav tag to navigate the link of other page-->
+
+<nav>
+	<a href="SocialSupport.html">
+	<img src="https://i.pinimg.com/236x/4e/88/9c/4e889c605ced5778948bafa2b618e36a.jpg">
+	</a>
+
+	<div class="links">
+		<ul>
+		<li><a href="HOME.html">HOME</a></li>
+		<li><a href="ABOUT.html">ABOUT</a></li>
+		<li><a href="SERVICES.html">SERVICES</a></li>
+		<li><a href="BLOG.html">BLOG/NEWS</a></li>
+		<li><a href="CONTACT.html">CONTACT</a></li>
+		</ul>
+	</div>
+	
+</nav>
+	<div class="text-box">
+	<h1>Empower Communities</h1>
+	<p>Social work and community support are vital today, helping people overcome challenges,<br> fostering connection, and building stronger, more caring communities.</p>
+	<a href="#" class="hero-btn">JOIN US AND EXPLORE HOW WE CAN MAKE A BIG DIFFERENCE TOGETHER !</a>
+	</div>
+</section>
+
+<section class="services">
+	<h1>We offer a range of support services to uplift individuals and communities</h1>
+	<p>we promote sustainability through tree plantations, deforestation awareness, charity support, waste management education, clean water access, and climate change advocacy</p>
+	<div class="row">
+		<div class="services-col">
+			<h3>Tree Plantation Drives</h3>
+			<p> Organizing community-based tree planting initiatives</p>
+		</div>
+		<div class="services-col">
+			<h3>Charity and Donations</h3>
+			<p>Supporting environmental causes and providing resources to underprivileged communities</p>
+		</div>
+		<div class="services-col">
+			<h3>Clean Water Access Initiatives</h3>
+			<p> Working to provide clean drinking water to areas affected by scarcity and contamination</p>
+		</div>
+		<div class="services-col">
+			<h3>Climate Change Advocacy</h3>
+			<p>Raising awareness about climate change and encouraging eco-friendly practices to protect the planet for future generations</p>
+		</div>
+	</div>
+
+</section>
+</body>
+</html>

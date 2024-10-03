@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Working Platform</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+
+        section {
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Call to Action Section */
+        .cta {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #ff6b6b;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .cta h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            background-color: white;
+            color: #ff6b6b;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* How to Get Involved Section */
+        .get-involved {
+            padding: 40px 20px;
+            text-align: left;
+            background-color: #fff;
+        }
+
+        .get-involved h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .get-involved p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Added Buttons and Radio Options */
+        .get-involved form {
+            margin-top: 20px;
+        }
+
+        .get-involved label {
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+
+        .get-involved input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .get-involved input[type="submit"], .get-involved button {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .get-involved button:hover {
+            background-color: #ff4757;
+        }
+
+        .get-involved select {
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        /* Partner with Us Section */
+        .partner {
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+            text-align: left;
+        }
+
+        .partner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .partner p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .partner a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .partner a:hover {
+            background-color: #ff4757;
+        }
+
+        /* Newsletter Signup Section */
+        .newsletter {
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: left;
+        }
+
+        .newsletter h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .newsletter p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .newsletter button:hover {
+            background-color: #ff4757;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #333;
+            padding: 40px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        .footer a {
+            color: #ff6b6b;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>Join the Movement</h2>
+        <p>Together we can make a bigger impact. Be a part of a global change.</p>
+        <a href="#">Get Involved</a>
+    </section>
+
+    <!-- How to Get Involved Section -->
+    <section class="get-involved">
+        <h2>How to Get Involved</h2>
+        <p>Explore ways to contribute, whether it’s volunteering, donating, or simply spreading the word.</p>
+        <form>
+            <label>
+                <input type="radio" name="involvement" value="volunteer"> Volunteer
+            </label>
+            <label>
+                <input type="radio" name="involvement" value="donate"> Donate
+            </label>
+            <label>
+                <input type="radio" name="involvement" value="spread"> Spread the Word
+            </label>
+            <br><br>
+            <label for="programs">Select a Program:</label>
+            <select id="programs" name="programs">
+                <option value="education">Education Program</option>
+                <option value="environment">Environmental Sustainability</option>
+                <option value="health">Health & Wellness</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Partner with Us Section -->
+    <section class="partner">
+        <h2>Partner with Us</h2>
+        <p>Are you an NGO or a company looking to make an impact? Join us in creating positive change.</p>
+        <a href="#">Learn More</a>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest opportunities and success stories from our platform.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Social Working Platform. All rights reserved.</p>
+        <p>Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>

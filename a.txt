@@ -1,0 +1,37 @@
+<html>
+
+<head><title>My College</title></head>
+
+<body>
+<h1>Riding</h1>
+<img src="Horse.png.jpg" height="200" width="200">
+<h2>Racing </h2>
+
+<pre>
+Hi I am Snehal Dongre From Fergusson College Pursuing My Bachelors In Computer Science.
+Hi I am XYZ Purusing the same course from same college 
+</pre>
+
+<table border="2">
+<tr>
+<th> roll no </th>
+<th> name </th>
+<th> City </th>
+<th> College Name </th>
+</tr>
+
+<tr>
+<td> 80 </td>
+<td> Snehal </td>
+<td> Pune </td>
+<td> Fc </td>
+</tr>
+
+<tr>
+<td> 81 </td>
+<td> Komal </td>
+<td> Pune </td>
+<td> Fc </td>
+
+</table>
+</body>
