@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /*from google fonts we have added this font of poppins*/
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+}
+
+.sub-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://v1.mcgeoffroy.ca/storage/2020/12/social-support2-1024x732.jpg);
+  background-positin: center;
+  background-size: cover;
+  position: relative;
+  <!--url link to page for background image -->
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 80px;
+  /* Set the desired height for the logo */
+  width: auto;
+  /* Auto adjust the width to maintain aspect ratio */
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a
+
+/*for the anchor tags*/
+  {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 13px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  border: 1px solid red;
+  background: red;
+  transition: 1s;
+}
+
+/*@media(max-width: 700px){
+.text-box h1{
+font-size: 20px;
+}*/
+
+.links ul li {
+  display: block;
+}
+
+.links {
+  position: absolute;
+  background: red;
+  height: 100wh;
+  width: 200px;
+  top: 0;
+  right: 0;
+  text-align: left;
+  z-index: 2;
+}
+.sub-header {
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(3, 8, 25, 0.8), rgba(3, 8, 25, 0.8)), url(https://v1.mcgeoffroy.ca/storage/2020/12/social-support2-1024x732.jpg);
+  background-position: ;
+  background-size: cover;
+  color: white;
+
+}
+
+.logo{
+height: 40px;
+margin:20px;
+
+}
+.sub-header row{
+padding-top: 10%;
+padding-bottom: 15%;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.promo-text-box{
+margin-top: 15%;
+
+}
+.promo-text-box h1{
+margin-bottom: 25px;
+ display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  height: 100%; /
+  text-align: left; 
+  padding-left: 10%; 
+}
+.promo-text-box p{
+display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  height: 100%; 
+  text-align: left; 
+  padding-left: 10%; 
+}
+
+.her-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  padding-left: 10%;
+  width: 59px;
+  height: auto;
+  margin: 6px;
+  cursor: pointer;
+}
+/* Lead form container */
+.lead-form {
+  position: absolute;
+  right: 260px;
+  top: 10%;
+  transform: translateY(-50%); /* This will center the form vertically */
+  width: 360px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 8px; /* Increased for better rounded effect */
+  padding: 0; /* Added padding for better spacing inside the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a nice effect */
+}
+
+/* Title box at the top of the form */
+.title-box {
+  background-color: #1065b6;
+  height: 100px;
+  padding-top: 20px; /* Adjusted for better alignment */
+  border-bottom-left-radius: 200px 50px;
+  border-bottom-right-radius: 200px 50px;
+}
+
+.title-box h3,
+.title-box p {
+  text-align: center;
+  color: white; /* Added color for better readability */
+  margin: 0; /* Remove default margins */
+}
+
+.title-box h3 {
+  font-size: 18px; /* Adjust the size as per design */
+}
+
+.title-box p {
+  font-size: 14px; /* Adjust the size for better visual hierarchy */
+  margin-top: 5px; /* Add a bit of space between the heading and the paragraph */
+}
+
+/* Form elements */
+form {
+  margin-top: 15px;
+}
+
+form label {
+float: left;
+margin-left: 15px;
+margin-top: 5px;
+  display: block;
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: #333;
+}
+.input-box {
+margin-left: 15px;
+  width: 290px;
+height: 40px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.input-box::placeholder{
+color: #999
+}
+
+form button {
+margin-top: 20px;
+margin-bottom: -30px;
+  width: 280px;
+height: 60px;
+margin-left: 40px;
+  background-color: #1065b6;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0d4a8a;
+}
+
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+
